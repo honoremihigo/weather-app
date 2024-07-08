@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  font-family: poppins;
+}
+* h1 {
+  margin: 0;
+}
+* h2 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  background: linear-gradient(to bottom, #55d4ac, #596e91);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-radius: 15px;
+}
+.container .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.container .search-container input {
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.container .search-container .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50%;
+  background: white;
+}
+.container .search-container .btn svg {
+  width: 20px;
+  height: 20px;
+}
+.container .location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .location-container img {
+  width: 150px;
+}
+.container .location-container h2 {
+  text-transform: capitalize;
+  color: blue;
+}
+.container .location-container h1 {
+  color: white;
+}
+.container .humidity-speed-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  gap: 70px;
+}
+.container .humidity-speed-container .humidity-speed {
+  display: flex;
+  align-items: center;
+}
+.container .humidity-speed-container .humidity-speed h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: white;
+}
+.container .humidity-speed-container svg {
+  width: 45px;
+  height: 45px;
+  fill: white;
+}
+
+.inp {
+  padding: 30px;
+}
+.inp h1 {
+  color: white;
+}/*# sourceMappingURL=main.css.map */

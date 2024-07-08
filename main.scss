@@ -1,0 +1,115 @@
+$color-1:#55d4ac;
+$color-2:#596e91;
+
+*{
+   box-sizing: border-box;
+   font-family: poppins; 
+   h1{
+    margin: 0;
+   }
+   h2{
+    margin: 0;
+   }
+}
+
+body{
+    margin: 0;
+    background: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    // border: 1px solid red;
+    width: 400px;
+    background: linear-gradient(to bottom , $color-1 , $color-2 );
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 15px;
+    .search-container{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px;
+        input{
+            padding: 10px 20px;
+            width: 250px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            font-size: 1rem;
+            text-transform: capitalize;
+        }
+        .btn{
+            // border: 1px solid red;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 50%;
+            background: white;
+            svg{
+                width: 20px;
+                height: 20px;
+            }
+            &:active{
+                background-color: red;
+            }
+        }
+    }
+    .location-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 150px;
+        }
+        h2{
+            text-transform: capitalize;
+            color: blue;
+        }
+        h1{
+            color: white;
+        }
+    }
+    .humidity-speed-container{
+        display: flex;
+        justify-content: space-around;
+        // border: 1px solid red;
+        padding: 30px;
+        gap: 70px;
+        .humidity-speed{
+            display: flex;
+            align-items: center;
+            h2{
+                margin: 0;
+                font-size: 1.2rem;
+                color: white;
+            }
+
+        }
+        svg{
+            width: 45px;
+            height: 45px;
+            fill: white;
+        }
+    }
+}
+
+
+
+.inp{
+    padding: 30px;
+    h1{
+        color: white;
+    }
+}
